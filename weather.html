@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+
+<body>
+    <div class="cities"><select id="locality-dropdown" onchange="getweatherforcity();">
+
+        </select>
+        <script>
+            let dropdown1 = document.getElementById('locality-dropdown').value;
+            console.log(dropdown1);
+        </script>
+        <div data-role="weather-container" id="containerfull">
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+
+        <script src="weather.js"></script>
+        <script src="cities.js"></script>
+    </div>
+</body>
+
+</html>

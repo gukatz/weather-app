@@ -1,0 +1,55 @@
+#locality-dropdown {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(clouds.png);
+    background-size: cover;
+}
+
+.cities {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: #92defd;
+    width: fit-content;
+    padding: 1%;
+    border: white 3px dotted;
+    border-radius: 5px;
+}
+
+#containerfull {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.red {
+    color: red;
+}
+
+.temp {
+    background-color: yellowgreen;
+    border: black 2px solid;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.press {
+    background-color: rgb(247, 205, 91);
+    border: black 2px solid;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.hum {
+    background-color: rgb(247, 205, 91);
+    border: black 2px solid;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
