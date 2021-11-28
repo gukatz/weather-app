@@ -18,7 +18,7 @@ const writeWeatherData = (weatherData) => {
         }
 
         if (key == "humidity")  {        
-           container.append(`<br><p class="hum">Humidity: ${Math.round(value)} </p></div>`)        
+           container.append(`<br><p class="hum">Humidity: ${Math.round(value)}%</p></div>`)        
         }
     });
 
